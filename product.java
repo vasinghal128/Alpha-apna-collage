@@ -1,11 +1,10 @@
 import java.util.*;
-public class inputsum {
+public class product {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        int first = sc.nextInt();
+        float first = sc.nextFloat();
         float second = sc.nextFloat();
-
-        float sum = first + second;
-        System.out.print(sum);
+        float product = first*second;
+        System.out.print(product);
     }
 }
